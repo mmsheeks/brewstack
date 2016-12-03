@@ -1,0 +1,17 @@
+{
+    "name": "demo",
+    "authors": [
+        {
+            "name": "Martin Sheeks",
+            "email": "martin.sheeks@bigideas.com"
+        }
+    ],
+    "require": {
+        "labsix/homebrew": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "controllers"
+        }
+    }
+}
