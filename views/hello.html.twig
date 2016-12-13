@@ -3,7 +3,12 @@
 {% block title %}Hello Homebrew {% endblock %}
 
 {% block body %}
-	<h1>Hello world!</h1>
-	<p>{{ baz }}</p>
-	<p><a href="{{ route( 'foo_bar' ) }}">FOO BAR</a></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h1>Hello world!</h1>
+				<p>Thanks for installing Brew Stack! This minimalist framework will provide you with the basics to get a site off the ground. Documentation coming soon!</p>
+			</div>
+		</div>
+	</div>
 {% endblock %}
