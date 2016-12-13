@@ -126,12 +126,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/mmsheeks/homebrew.git",
-            "reference": "7e56329e7872ba0fb8d2ff4f62ec6605d5e23948"
+            "reference": "977d7006d0deb79b88d6520f4f86f0e92df630df"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/mmsheeks/homebrew/zipball/7e56329e7872ba0fb8d2ff4f62ec6605d5e23948",
-            "reference": "7e56329e7872ba0fb8d2ff4f62ec6605d5e23948",
+            "url": "https://api.github.com/repos/mmsheeks/homebrew/zipball/977d7006d0deb79b88d6520f4f86f0e92df630df",
+            "reference": "977d7006d0deb79b88d6520f4f86f0e92df630df",
             "shasum": ""
         },
         "require": {
@@ -139,12 +139,16 @@
             "symfony/yaml": "3.2.*",
             "twig/twig": "~1.0"
         },
-        "time": "2016-12-02 20:32:03",
+        "time": "2016-12-08 16:45:33",
         "type": "library",
         "installation-source": "source",
         "autoload": {
+            "files": [
+                "helpers/view_helpers.php"
+            ],
             "psr-4": {
-                "Homebrew\\Core\\": "core/"
+                "Homebrew\\Core\\": "core/",
+                "Homebrew\\Renderer\\": "renderer/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",

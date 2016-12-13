@@ -1,2 +1,9 @@
-<h1>Hello world!</h1>
-<p>{{ baz }}</p>
+{% extends "layouts/master.html.twig" %}
+
+{% block title %}Hello Homebrew {% endblock %}
+
+{% block body %}
+	<h1>Hello world!</h1>
+	<p>{{ baz }}</p>
+	<p><a href="{{ route( 'foo_bar' ) }}">FOO BAR</a></p>
+{% endblock %}

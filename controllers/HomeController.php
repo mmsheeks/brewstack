@@ -7,6 +7,10 @@ use Homebrew\Core\Response;
 
 class HomeController extends Controller {
 
+	function index() {
+		Response::view('hello', $this->request->all() );
+	}
+
 	function fooBar() {
 		Response::view('hello', $this->request->all() );
 	}

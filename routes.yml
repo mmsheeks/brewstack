@@ -1,7 +1,7 @@
 home:
   method: GET
   path: /
-  use: home@index
+  use: HomeController@index
 foo_bar:
   method: GET
   path: /foo/bar
