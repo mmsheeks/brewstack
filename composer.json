@@ -1,5 +1,8 @@
 {
-    "name": "demo",
+    "name": "labsix/brewstack",
+    "description": "Brewstack is the installable package of Homebrew from Lab Six!",
+    "keywords": [ "framework", "homebrew", "brewstack" ],
+    "license": "MIT",
     "authors": [
         {
             "name": "Martin Sheeks",
