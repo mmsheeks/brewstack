@@ -1,0 +1,7 @@
+database:
+  enabled: false
+  host: 'dev.labsix.co'
+  user: 'homebrew'
+  pass: 'EPBVW48RrTySsmWG'
+  schema: 'homebrew'
+  prefix: ''

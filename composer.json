@@ -10,11 +10,12 @@
         }
     ],
     "require": {
-        "labsix/homebrew": "~1.0"
+        "labsix/homebrew": "1.0.2"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "controllers"
+            "App\\": "controllers",
+            "Models\\": "models"
         }
     }
 }
