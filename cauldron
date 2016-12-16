@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Brewstack Cauldron
+ * Executes commands within the brewstack archetecture
+ * @author Martin Sheeks <martin.sheeks@gmail.com>
+ * @version 1.0.5
+ */
+
+ require_once 'vendor/autoload.php';
+ 
+ $app = new Homebrew\Core\Application();
+ $app->command( $argv );
+
+?>

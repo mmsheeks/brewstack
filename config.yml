@@ -7,3 +7,8 @@ database:
   pass: 'EPBVW48RrTySsmWG'
   schema: 'homebrew'
   prefix: ''
+commands:
+  database:
+    migrate:
+      class: Homebrew\Database\Driver
+      method: migrate
