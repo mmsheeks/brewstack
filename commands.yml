@@ -1,0 +1,4 @@
+database:
+  migrate:
+    class: Homebrew\Database\Driver
+    method: migrate
