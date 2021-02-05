@@ -1,6 +1,6 @@
-# Homebrew
+# Brewstack
 
-Mostly just me fucking around trying to build a framework from the ground up.
+A proof of concept for a PHP framework built from the ground up.
 
 ### Changelog
 
